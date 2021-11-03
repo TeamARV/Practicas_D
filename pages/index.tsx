@@ -1,8 +1,10 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
+/* import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css' */
+
+import type { NextPage } from 'next'
 import Link from "next/link"
+
 
 
 
@@ -12,7 +14,7 @@ const Home: NextPage = () => {
 
    <Link href="/Page1">
   
-     <p className="bg-red-200 cursor-pointer text-center">esto es un link al index y usando tailwind</p>
+     <p className="bg-blue-400 cursor-pointer text-center">esto es un link al index y usando tailwind</p>
       
    </Link>
 
@@ -21,6 +23,9 @@ const Home: NextPage = () => {
   <p className="bg-success cursor-pointer text-center">esto es un link al index y usando tailwind y bootstrap</p>
    
 </Link>
+
+<span className="bg-danger text-blue-600"> test bootsrap  fondo y letra tailwind</span>
+   
 
    <nav className="navbar navbar-expand-lg navbar-light  fixed-button ">
           
