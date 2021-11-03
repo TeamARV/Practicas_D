@@ -3,7 +3,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css' */
 
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import Link from "next/link"
+
 
 
 
@@ -11,6 +13,11 @@ import Link from "next/link"
 const Home: NextPage = () => {
   return (
     <div>
+
+    <Head>
+      <title>Titulo pagina :D</title>
+     
+    </Head>
 
    <Link href="/Page1">
   
