@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/globals.css'
+import 'tailwindcss/tailwind.css'
 
 
 function MyApp({ Component, pageProps }: AppProps) {
