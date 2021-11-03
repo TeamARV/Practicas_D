@@ -16,6 +16,12 @@ const Home: NextPage = () => {
       
    </Link>
 
+   <Link href="/Page1">
+  
+  <p className="bg-success cursor-pointer text-center">esto es un link al index y usando tailwind y bootstrap</p>
+   
+</Link>
+
    <nav className="navbar navbar-expand-lg navbar-light  fixed-button ">
           
           <div className="container-fluid ">
